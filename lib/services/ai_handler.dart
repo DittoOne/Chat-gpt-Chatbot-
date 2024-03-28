@@ -4,7 +4,7 @@ import 'package:chat_gpt/widgets/chat_item.dart';
 class AIHandler {
  //late final request;
   final _openAI = OpenAI.instance.build(
-    token: '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---',
+    token: '---sk-PlblAHnPZmk4WaN54IUa---T3BlbkFJCZDqzNkVq7QQckgqA1qq---',
     baseOption: HttpSetup(receiveTimeout: const Duration(seconds: 20)),
     enableLog: true,
   );
